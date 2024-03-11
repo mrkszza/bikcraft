@@ -1,0 +1,91 @@
+HTML/Projeto - bikecraft/bikcraft-figma.fig HTML/Projeto - bikecraft/bikcraft02.svgbody {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    display: grid;
+    justify-items: center;
+    background-color: #000000;
+}
+/* ----------------- HEADER ----------------------- */ 
+header {
+    display: flex;
+    width: 100%;
+    background-color: #000000;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1460px;
+    margin: 0 auto;
+    width: 100%;
+}
+.logo {
+    margin-right: auto;
+}
+nav {
+    margin-left: auto;
+}
+.menu {
+    padding: 20px;
+    list-style: none;
+    display: flex;
+}
+.menu li {
+    padding: 0 10px;
+}
+.menu a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+/* ----------------- BANNER ----------------------- */ 
+.conteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 91.25rem;
+    
+}
+.introducao {
+    background-color: #000000;
+    padding: 40px;
+    text-align: right;
+    position: relative;
+    display: grid;
+    gap: 20px;
+    align-content: center;
+    justify-items: start;
+    color: white;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+.intro-img img {
+    width: 640px;
+    height: 800px;
+    object-fit: cover;
+}
+.button {
+    background-color: #ffbb00;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold
+}
+.introducao h1 {
+    font-family: ;
+    font-weight: bold;
+    font-size: 64px;
+    text-align: start;
+}
+.introducao p {
+    max-width: 450px;
+    font-weight: 500px;
+    font-size: 22px;
+    text-align: start;
+}
+.introducao h1 span {
+   color: #ffbb00; 
+}
